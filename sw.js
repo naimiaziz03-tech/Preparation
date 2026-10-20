@@ -1,5 +1,5 @@
-var CACHE = "crte-v1";
-var FILES = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png"];
+var CACHE = "crte-v2";
+var FILES = ["./", "./index.html", "./crte-app.webmanifest", "./icon-crte-192.png", "./icon-crte-512.png"];
 
 self.addEventListener("install", function (e) {
   e.waitUntil(
